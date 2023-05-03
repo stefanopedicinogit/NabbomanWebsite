@@ -26,6 +26,7 @@ import './css/owl.theme.default.min.css';
 import './css/responsive.css';
 import './css/style.css';
 import './css/slick.css';
+import ProductPage from './pages/Store/ProductPage';
 
 function App() {
 
@@ -40,7 +41,8 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/store" element={<Store />} />
-        <Route exact path="/blog-details/:id" element={<DetailedPost/>} />           
+        <Route exact path="/blog-details/:id" element={<DetailedPost/>} />         
+        <Route exact path="/product" element={<ProductPage/>} />             
       </Routes>
       <Footer />
     </Router>
