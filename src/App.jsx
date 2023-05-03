@@ -42,7 +42,6 @@ function App() {
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/store" element={<Store />} />
         <Route exact path="/blog-details/:id" element={<DetailedPost/>} />         
-        <Route exact path="/product" element={<ProductPage/>} />             
       </Routes>
       <Footer />
     </Router>
