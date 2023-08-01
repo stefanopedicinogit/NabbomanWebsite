@@ -21,7 +21,7 @@ const ElegantButton = styled.button`
 const StripeButton = (stripeArray) => {
   const handleClick = () => {
     console.log('CHECKOUT: ',JSON.stringify(stripeArray.stripeArray));
-    fetch("http://localhost:3001/create-checkout-session", {
+    fetch("https://backend-express-nabboman-render.onrender.com/create-checkout-session", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
