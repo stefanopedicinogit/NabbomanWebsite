@@ -122,7 +122,7 @@ const Blog = () => {
           <h2>{post.node.title}</h2>
           <div class="blog-meta">
             <ul>
-              <li>bY {post.node.author.name}</li>
+              <li>by {post.node.author.name}</li>
               <li>{date}</li>
             </ul>
           </div>
