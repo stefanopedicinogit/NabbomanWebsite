@@ -93,7 +93,7 @@ const Blog = () => {
                   )}
                 </div> */}
                 <div className="rc-post-content">
-                <h5><a href={"/blog-details/" + post.node.id}>{post.node.title}</a></h5>
+                <h5><a href={"/blogdetails/" + post.node.id}>{post.node.title}</a></h5>
                   <span>{new Date(post.node.createdAt).toLocaleDateString()}</span>
                 </div>
               </li>
@@ -108,7 +108,7 @@ const Blog = () => {
 
 
   function PostCard({ post }) {
-    const url_to = "/blog-details/" + post.node.id
+    const url_to = "/blogdetails/" + post.node.id
     const date = new Date(post.node.createdAt).toLocaleString();
     return (
       <div class="blog-list-post">
