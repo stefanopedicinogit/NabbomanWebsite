@@ -120,7 +120,7 @@ const Home = () => {
               </a>
             </div>
             <div class="flex-center-icons">
-            <a href='https://www.tiktok.com/@nabbomann'>
+            <a href='https://www.tiktok.com/@nabboman_'>
               <div class="icon-3d">
                 <i class="fab fa-tiktok fa-4x"></i>
               </div>

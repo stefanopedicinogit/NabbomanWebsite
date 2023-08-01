@@ -25,10 +25,11 @@ const Footer = () => {
                                             eos natus, similique asperiores.</p>
                                         <div class="fw-social">
                                             <ul>
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                <li><a href="https://www.twitch.tv/nabboman_"><i class="fab fa-twitch f"></i></a></li>
+                                                <li><a href="https://www.facebook.com/Nabbomann"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="https://m.youtube.com/channel/UC6olf_qdKkHtje-5LeV1TQg"><i class="fab fa-youtube f"></i></a></li>
+                                                <li><a href="https://www.instagram.com/nabboman_"><i class="fab fa-instagram f"></i></a></li>
+                                                <li><a href="https://www.tiktok.com/@nabboman_"><i class="fab fa-tiktok f"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -41,9 +42,8 @@ const Footer = () => {
                                     </div>
                                     <div class="fw-quick-link">
                                         <ul>
-                                            <li><a href="#">About Me</a></li>
-                                            <li><a href="#">Store</a></li>
-                                            <li><a href="#">Donations</a></li>
+                                            <li><a href="/about">About Me</a></li>
+                                            <li><a href="/store">Store</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -54,10 +54,11 @@ const Footer = () => {
                                 </div>
                                 <div class="footer-social">
                                     <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="https://www.twitch.tv/nabboman_"><i class="fab fa-twitch f"></i></a></li>
+                                        <li><a href="https://www.instagram.com/nabboman_"><i class="fab fa-instagram f"></i></a></li>
+                                        <li><a href="https://m.youtube.com/channel/UC6olf_qdKkHtje-5LeV1TQg"><i class="fab fa-youtube f"></i></a></li>
+                                        <li><a href="https://www.facebook.com/Nabbomann"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.tiktok.com/@nabboman_"><i class="fab fa-tiktok f"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
