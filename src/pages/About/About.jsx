@@ -13,7 +13,7 @@ const About = () => {
                 </div> */}
                 <div class="container">
                     <div class="row align-items-center" style={{ marginTop: '2%' }}>
-                        <div class="col-xl-7 col-lg-6 order-0 order-lg-2">
+                        <div class="col-sm-12 col-md-12 col-xl-7 col-lg-6 order-0 order-lg-2">
                             <div class="inner-about-img">
                                 <img src="img/images/inner_about_img01.png" class="wow fadeInRight" data-wow-delay=".3s" alt="" />
                                 <img src="img/images/inner_about_img02.png" class="wow fadeInLeft" data-wow-delay=".6s" alt="" />

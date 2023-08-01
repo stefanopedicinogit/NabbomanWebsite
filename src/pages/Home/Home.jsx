@@ -66,9 +66,9 @@ const Home = () => {
           <div className="container-fluid p-0 fix">
             <div className="row game-gallery-active">
               <div className="col-12">
-                <div className="game-gallery-item">
-                  <img className='justify-content-center align-item-center' src='/twitch-ar21.svg' height='100px' width='400px'></img>
-                  <img className='justify-content-center align-item-center' src='/live-streaming-icon.svg' height='100px' width='100px'></img>
+                <div className="game-gallery-item" style={{paddingBottom:'5%'}}>
+                  <img className='justify-content-center align-item-center' src='/twitch-ar21.svg' height='150px' width='300px'></img>
+                  <img className='justify-content-center align-item-center' src='/live-streaming-icon.svg' height='120px' width='120px'></img>
                   <div className="container-twitch">
                     <iframe className='mt-5 responsive-iframe' src="https://player.twitch.tv/?channel=nabboman_&parent=localhost&popout_chat=true" frameborder="0" allowfullscreen="true"></iframe>
                   </div>

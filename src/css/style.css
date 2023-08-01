@@ -6874,3 +6874,11 @@ ul.minicart .cart-price .new {
   .margine-social-area {
 	margin-top: 150px;
   }
+
+  @media (max-width: 767px) {
+	.inner-about-img img {
+	  max-width: 100% !important;
+	  height: auto;
+	  margin: auto;
+	}
+  }

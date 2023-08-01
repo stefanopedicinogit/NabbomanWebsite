@@ -14,6 +14,10 @@ const Blog = () => {
     setArrayPosts(results);
   }
 
+  useEffect(() => {
+    console.log(arrayPosts);
+  }, [arrayPosts]);
+
   // Logic to calculate the page numbers to display for pagination
   const pageNumbers = [];
   for (let i = 1; i <= Math.ceil(arrayPosts.length / postsPerPage); i++) {
@@ -59,12 +63,12 @@ const Blog = () => {
       <>
         <div class="widget mb-45">
           <div class="sidebar-widget-title mb-25">
-            <h4>CATEGORY <span>POST</span></h4>
+            <h4>CATEGORY POST<span> COUNTER</span></h4>
           </div>
           <div class="sidebar-cat">
             <ul>
               {categories && Object.keys(categories).map(category => (
-                <li key={category}>{category} ({categories[category]})</li>
+                <li key={category}>{category} ( {categories[category]} )</li>
               ))}
             </ul>
           </div>
@@ -113,7 +117,7 @@ const Blog = () => {
         </div>
         <div class="blog-list-post-content" id="blog-list">
           <div class="blog-list-post-tag mb-25">
-            <a>{post.node.tags}</a>
+            <a>{post.node.slug}</a>
           </div>
           <h2>{post.node.title}</h2>
           <div class="blog-meta">

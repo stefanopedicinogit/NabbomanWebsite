@@ -23,6 +23,9 @@ export const getPosts = async () => {
                   }
                   tags
                   id
+                  content{
+                    text
+                  }
                 }
               }
             }

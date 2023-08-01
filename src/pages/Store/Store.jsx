@@ -1,49 +1,12 @@
-import React, { useState, useEffect } from 'react'
-import Header from '../../components/Header'
-import commerce from '../../lib/commercejs';
+import React from 'react'
 
 const Store = () => {
-    // const [products, setProducts] = useState([]);
-
-    // useEffect(() => {
-    //     fetchProducts();
-    //   }, []);
-
-
-    /**   THIS IS A COMMENT useState, useEffect and fetchProducts instead not
-     * Fetch products data from Chec and stores in the products data object.
-     * https://commercejs.com/docs/sdk/products
-     */
-
-
-    // const fetchProducts = () => {
-    //     commerce.products.list().then((products) => {
-    //     setProducts(products.data);
-    //     console.log(products.data)
-    //     }).catch((error) => {
-    //     console.log('There was an error fetching the products', error)
-    //     });
-    // }
-
-
 
     return (
         <>
-            {/* <!-- preloader --> */}
-            {/* <div id="preloader">
-        <div id="loading-center">
-            <div id="loading-center-absolute">
-                <img src="img/icon/preloader.svg" alt=""/>
-            </div>
-        </div>
-    </div> */}
-            {/* <!-- preloader-end --> */}
             <main>
                 {/* <!-- breadcrumb-area --> */}
                 <section class="blog-area primary-bg pt-120 pb-175" style={{ backgroundColor: '#252525' ,marginBottom:'-11.5%', overflowX:'hidden'}}>
-                    {/* <div className='mb-5' style={{ backgroundColor: '#252525' }}>
-                        <Header>  </Header>
-                    </div> */}
                     <section class="breadcrumb-area breadcrumb-bg">
                         <div class="container">
                             <div class="row">

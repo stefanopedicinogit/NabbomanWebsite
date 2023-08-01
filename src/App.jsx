@@ -27,6 +27,10 @@ import './css/responsive.css';
 import './css/style.css';
 import './css/slick.css';
 import ProductPage from './pages/Store/ProductPage';
+import StripeButton from './pages/Store/StripeButton';
+import { SendItemFromForm } from './pages/Store/SendItemsFromForm';
+import CheckoutSuccess from './pages/Store/CheckoutSuccess';
+import CheckoutCancelled from './pages/Store/CheckoutCancelled';
 
 function App() {
 
@@ -40,8 +44,13 @@ function App() {
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blog" element={<Blog />} />
-        <Route exact path="/store" element={<Store />} />
+        <Route exact path="/products" element={<Store />} />
         <Route exact path="/blog-details/:id" element={<DetailedPost/>} />         
+        <Route exact path="/store" element={<ProductPage/>} />   
+        <Route exact path="/stripe/checkout" element={<StripeButton/>}/>   
+        <Route exact path="/send-item-from-form" element={<SendItemFromForm/>}/>  
+        <Route exact path="/checkout-success" element={<CheckoutSuccess/>}/>
+        <Route exact path="/checkout-cancel" element={<CheckoutCancelled/>}/>
       </Routes>
       <Footer />
     </Router>
