@@ -70,7 +70,7 @@ const Home = () => {
                   <img className='justify-content-center align-item-center' src='/twitch-ar21.svg' height='150px' width='300px'></img>
                   <img className='justify-content-center align-item-center' src='/live-streaming-icon.svg' height='120px' width='120px'></img>
                   <div className="container-twitch">
-                    <iframe className='mt-5 responsive-iframe' src="https://player.twitch.tv/?channel=nabboman_&parent=localhost&popout_chat=true" frameborder="0" allowfullscreen="true"></iframe>
+                  <iframe className='mt-5 responsive-iframe' src="https://player.twitch.tv/?channel=nabboman_&parent=nabbomanwebsite.vercel.app&popout_chat=true" frameBorder="0" allowFullScreen></iframe>
                   </div>
                   {/* CHAT PER TWITCH (INIBITA PER IL MOMENTO DA IMPLEMENTARE CON RESPONSIVENESS) */}
                   {/* <div style={{marginLeft:'92%', marginTop:'-52%', zIndex:'2'}}>
@@ -100,32 +100,46 @@ const Home = () => {
               </div>
             </div>
             <div class="flex-center-icons">
-              <div class="icon-3d">
+              <a href='https://www.twitch.tv/nabboman_'><div class="icon-3d">
                 <i class="fab fa-twitch fa-4x"></i>
-              </div>
+              </div></a>
+              <a href='https://www.facebook.com/Nabbomann'>
               <div class="icon-3d">
                 <i class="fab fa-facebook fa-4x"></i>
               </div>
+              </a>
+              <a href='https://m.youtube.com/channel/UC6olf_qdKkHtje-5LeV1TQg'>
               <div class="icon-3d">
                 <i class="fab fa-youtube fa-4x"></i>
               </div>
+              </a>
+              <a href='https://www.instagram.com/nabboman_'>
               <div class="icon-3d">
                 <i class="fab fa-instagram fa-4x"></i>
               </div>
+              </a>
             </div>
             <div class="flex-center-icons">
+            <a href='https://www.tiktok.com/@nabbomann'>
               <div class="icon-3d">
                 <i class="fab fa-tiktok fa-4x"></i>
               </div>
+              </a>
+              <a href='https://discord.gg/92v9RX7B4e'>
               <div class="icon-3d">
                 <i class="fab fa-discord fa-4x"></i>
               </div>
+              </a>
+              <a href='https://it.pornhub.com/model/nabbomann'>
               <div class="icon-3d">
                 <h1>PH</h1>
               </div>
+              </a>
+              <a href='https://www.onlyfans.com/nabbomann'>  
               <div class="icon-3d">
                 <h1>OF</h1>
               </div>
+              </a>
             </div>
           </div>
         </section>
