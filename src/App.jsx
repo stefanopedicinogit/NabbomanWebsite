@@ -45,12 +45,12 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/products" element={<Store />} />
-        <Route exact path="/blog-details/:id" element={<DetailedPost/>} />         
+        <Route exact path="/blogdetails/:id" element={<DetailedPost/>} />         
         <Route exact path="/store" element={<ProductPage/>} />   
         <Route exact path="/stripe/checkout" element={<StripeButton/>}/>   
-        <Route exact path="/send-item-from-form" element={<SendItemFromForm/>}/>  
-        <Route exact path="/checkout-success" element={<CheckoutSuccess/>}/>
-        <Route exact path="/checkout-cancel" element={<CheckoutCancelled/>}/>
+        <Route exact path="/senditemfromform" element={<SendItemFromForm/>}/>  
+        <Route exact path="/checkoutsuccess" element={<CheckoutSuccess/>}/>
+        <Route exact path="/checkoutcancel" element={<CheckoutCancelled/>}/>
       </Routes>
       <Footer />
     </Router>
