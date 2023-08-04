@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { FaShoppingCart, FaTrash } from "react-icons/fa";
 import Cart from "./Cart";
-import StripeButton from './StripeButton';
 
 const PageContainer = styled.div`
   background-color: #333;
@@ -134,7 +133,6 @@ const ProductPage = () => {
         const itemPrice = item.price ? parseFloat(item.price.formatted) : 0;
         return total + itemPrice;
       }, 0)
-      .toFixed(2);
   };
 
   return (
@@ -151,10 +149,10 @@ const ProductPage = () => {
         <ProductGrid>
           {products.map((product) => (
             <ProductContainer key={product.id}>
-              <ProductImage src={product.imgBase64} alt={product.name} />
+              <ProductImage src={product.imgbase64} alt={product.name} />
               <ProductTitle>{product.name}</ProductTitle>
               <ProductDescription>{product.description}</ProductDescription>
-              <ProductPrice>{(product.price.toFixed(2))} €</ProductPrice>
+              <ProductPrice>{(product.price)} €</ProductPrice>
               <AddToCartButton onClick={() => handleAddToCart(product)}>
                 Add to Cart
               </AddToCartButton>

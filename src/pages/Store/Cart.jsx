@@ -153,7 +153,7 @@ const Cart = ({ cartItems, setCartItems, getTotalPrice, setShowCart, showCart })
               {cartItems.map((item, index) => (
                 <CartItem key={index}>
                   <CartItemInfo>
-                    <CartItemImage style={{ marginTop:'15%' }} src={item.imgBase64} alt={item.name} />
+                    <CartItemImage style={{ marginTop:'15%' }} src={item.imgbase64} alt={item.name} />
                     <CartItemDetails>
                       <CartItemTitle>{item.name}</CartItemTitle>
                       <CartItemDescription>{item.description}</CartItemDescription>
@@ -167,7 +167,7 @@ const Cart = ({ cartItems, setCartItems, getTotalPrice, setShowCart, showCart })
                 </CartItem>
               ))}
               <div style={{ marginBottom: "-45%" }}>                
-                <p>Total Price: {cartTotal.toFixed(2)} €</p>
+                <p>Total Price: {cartTotal} €</p>
               </div>
               <StripeButton stripeArray={stripeArray} >Checkout</StripeButton>
               <CloseCartButton onClick={handleCloseCart}>Close Cart</CloseCartButton>
