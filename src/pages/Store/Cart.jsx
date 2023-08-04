@@ -90,7 +90,7 @@ const CloseCartButton = styled.button`
 function calculateCartTotal(cartArray) {
   let total = 0;
   for (let i = 0; i < cartArray.length; i++) {
-    total += cartArray[i].price;
+    total += parseFloat(cartArray[i].price);
   }
   return total;
 }

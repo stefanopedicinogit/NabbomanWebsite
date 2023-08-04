@@ -110,13 +110,17 @@ const ProductPage = () => {
     fetch('https://backend-express-nabboman-render.onrender.com/products/get')
       .then(response => response.json())
       .then(data => {
-        setProducts(data.products);
-        console.log(data.products);
+        const transformedProducts = data.products.map(product => ({
+          ...product,
+          price: parseFloat(product.price)
+        }));
+        setProducts(transformedProducts);
       })
       .catch(error => {
         console.log('There was an error fetching the products', error);
       });
   };
+  
 
   const handleAddToCart = (product) => {
     setCartArray(cartArray => [...cartArray, product]);
